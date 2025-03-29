@@ -8,7 +8,7 @@ Este projeto tem como objetivo desenvolver um modelo de machine learning para **
 
 - `Projeto_Final.ipynb`: Notebook completo com todos os passos do projeto
 - `README.md`: Documentação do projeto
-- Arquivos de imagem (`.png`): Gráficos salvos no diretório principal
+- `img/`: Pasta com visualizações salvas (gráficos gerados durante a análise)
 
 ---
 
@@ -19,8 +19,6 @@ A base utilizada neste projeto está disponível publicamente no Google Drive:
 📥 [Clique aqui para baixar o dataset (CSV)](https://drive.google.com/file/d/1xkM3LcbbQOfu3T_3U41siVD_f5JBWJc_/view?usp=drive_link)
 
 Após o download, salve o arquivo com o nome exato:
-
-
 
 ```
 Base_M43_Pratique_CREDIT_CARD_FRAUD.csv
