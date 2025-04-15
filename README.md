@@ -6,9 +6,9 @@ Este projeto tem como objetivo desenvolver um modelo de machine learning para **
 
 ## 📁 Estrutura do Projeto
 
-- `Projeto_Final.ipynb`: Notebook completo com todos os passos do projeto
-- `README.md`: Documentação do projeto
-- `img/`: Pasta com visualizações salvas (gráficos gerados durante a análise)
+- `Projeto_Final.ipynb`: Notebook completo com todos os passos do projeto  
+- `README.md`: Documentação do projeto  
+- `img/`: Pasta com visualizações salvas (gráficos gerados durante a análise)  
 
 ---
 
@@ -16,7 +16,7 @@ Este projeto tem como objetivo desenvolver um modelo de machine learning para **
 
 A base utilizada neste projeto está disponível publicamente no Google Drive:
 
-📥 [Clique aqui para baixar o dataset (CSV)](https://drive.google.com/file/d/1xkM3LcbbQOfu3T_3U41siVD_f5JBWJc_/view?usp=drive_link)
+📅 [Clique aqui para baixar o dataset (CSV)](https://drive.google.com/file/d/1xkM3LcbbQOfu3T_3U41siVD_f5JBWJc_/view?usp=drive_link)
 
 Após o download, salve o arquivo com o nome exato:
 
@@ -28,16 +28,31 @@ Base_M43_Pratique_CREDIT_CARD_FRAUD.csv
 
 ---
 
+## 📘 Dicionário de Dados
+
+| Coluna      | Descrição                                                                 |
+|-------------|---------------------------------------------------------------------------|
+| `Time`      | Tempo decorrido em segundos desde a primeira transação registrada         |
+| `V1` a `V28`| Variáveis numéricas anônimas resultantes de uma transformação PCA         |
+| `Amount`    | Valor da transação em dinheiro                                            |
+| `Class`     | Rótulo da transação: `0` para legítima e `1` para fraude                  |
+| `Amount_Scaled` | Valor da transação padronizado (feature engineering)                 |
+| `Time_Scaled`   | Tempo da transação padronizado (feature engineering)                  |
+
+> 🔎 As variáveis `V1` a `V28` são componentes principais extraídas para proteger a confidencialidade dos dados originais.
+
+---
+
 ## 🚀 Tecnologias e Bibliotecas Utilizadas
 
-- Python 3.x
-- Pandas, NumPy
-- Scikit-learn
-- LightGBM, XGBoost, RandomForest
-- Imbalanced-learn (SMOTE)
-- Matplotlib, Seaborn
-- CalibratedClassifierCV
-- RandomizedSearchCV
+- Python 3.x  
+- Pandas, NumPy  
+- Scikit-learn  
+- LightGBM, XGBoost, RandomForest  
+- Imbalanced-learn (SMOTE)  
+- Matplotlib, Seaborn  
+- CalibratedClassifierCV  
+- RandomizedSearchCV  
 
 ---
 
@@ -80,19 +95,19 @@ Base_M43_Pratique_CREDIT_CARD_FRAUD.csv
 
 A seguir, algumas das visualizações geradas para explorar os dados e validar o desempenho do modelo:
 
-- **Pairplot:**
+- **Pairplot:**  
   ![Pairplot](img/pairplot.png)
 
-- **Distribuição KDE:**
+- **Distribuição KDE:**  
   ![KDE](img/kde_distributions.png)
 
-- **Scatterplot Time vs Amount:**
+- **Scatterplot Time vs Amount:**  
   ![Scatterplot](img/scatter_time_amount.png)
 
-- **Matriz de Confusão:**
+- **Matriz de Confusão:**  
   ![Confusion Matrix](img/confusion_matrix_lgbm.png)
 
-- **Curva ROC:**
+- **Curva ROC:**  
   ![ROC Curve](img/roc_curve_lgbm.png)
 
 ---
@@ -104,7 +119,7 @@ Além disso, o tempo de execução foi altamente vantajoso em comparação ao XG
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💼 Autor
 
 **Lucas Sugahara**  
 📧 [lucassugahara.trabalho@gmail.com](mailto:lucassugahara.trabalho@gmail.com)  
